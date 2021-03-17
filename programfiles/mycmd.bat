@@ -1,4 +1,5 @@
 @echo off
+::configurações da tela
 mode 80,30
 title MyTerminal
 color 0d
@@ -18,6 +19,7 @@ if %input%==.cls cls
 if %input%==.zoom_in mode 100,40
 if %input%==.zoom_out mode 60,20
 if %input%==.zoom_n mode 80,30
+::meio entre comandos de voz e comandos de texto
 if %input%==.sair* exit & start 1voice.vbs
 if %input%==?* start comands.txt & start 2voice.vbs
 if %input%==.github* start https://www.github.com & start 3voice.vbs
@@ -25,6 +27,7 @@ if %input%==.cmd* start & start 4voice.vbs
 if %input%==.calc* start calc & start 5voice.vbs
 if %input%==.links* start links.py & start 6voice.vbs
 if %input%==.cls* cls & start 7voice.vbs
+::sistema de verificação para se a palavra ou comando existe se quisetr mudar vá em mod.txt e copie e cole de acordo com sua preferencia.
 if exist %input%=="" (
 goto chatloop
 ) else (
