@@ -3,13 +3,16 @@
 mode 80,30
 title MyTerminal
 color 0d
+::interface
 echo /-----------------------------------/
 echo / para obter ajuda digite "?"       /
 echo / para sair digite .sair            /
 echo / para trocar de cor use .color_ch  /
 echo /-----------------------------------/
+::fim da interface
 : chatloop
 set /p input=#^> 
+::começo dos comandos com voz
 if %input%==.sair exit 
 if %input%==? start comands.txt
 if %input%==.github start https://www.github.com
@@ -17,6 +20,7 @@ if %input%==.cmd start
 if %input%==.calc start calc 
 if %input%==.links start links.py 
 if %input%==.cls cls 
+::fim dos comandos com voz 
 ::inicio dos comandos sem voz PS todo comando sem voz deve ser colocado nesse espaço
 if %input%==.zoom_in mode 100,40
 if %input%==.zoom_out mode 60,20
