@@ -11,3 +11,5 @@ lista_de_comandos:
 (color_ch_para_mudar_a_cor_(PS:so_uma_cor_disponivel))
 (color_n_para_voltar_a_cor_inicial)
 (.ipconfig_para_ver_ipconfig)
+(.MyTerminal?_para_ir_ao_projeto_no_github)
+(.MyTerminal-x_e_o_comando_cd)
