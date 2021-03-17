@@ -12,7 +12,7 @@ echo / para trocar de cor use .color_ch  /
 echo /-----------------------------------/
 ::fim da interface
 : chatloop
-set /p input=#^> 
+set /p input=$^>  
 ::começo dos comandos com voz
 if %input%==.sair exit 
 if %input%==? start comands.txt
