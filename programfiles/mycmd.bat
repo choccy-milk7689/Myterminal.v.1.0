@@ -34,6 +34,8 @@ if %input%==.color_n color 0d
 ::fim dos comandos se versão com voz
 ::meio entre comandos de voz e comandos de texto
 ::comandos com voz
+if %input%==.MyTerminal?* start https://github.com/choccy-milk7689/Myterminal.v.1.0 & start 9voice.vbs
+if %input%==.MyTerminal-x* cd & start 10voice.vbs
 if %input%==.sair* exit & start 1voice.vbs
 if %input%==?* start comands.txt & start 2voice.vbs
 if %input%==.github* start https://www.github.com & start 3voice.vbs
