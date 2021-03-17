@@ -13,3 +13,6 @@ lista_de_comandos:
 (.ipconfig_para_ver_ipconfig)
 (.MyTerminal?_para_ir_ao_projeto_no_github)
 (.MyTerminal-x_e_o_comando_cd)
+(.day_para_dia)
+(.time_para_horas_e_minutos)
+(.version-ac_para_versao_atual_do_seu_terminal)

@@ -31,6 +31,9 @@ if %input%==.zoom_out mode 60,20
 if %input%==.zoom_n mode 80,30
 if %input%==.color_ch color a
 if %input%==.color_n color 0d
+if %input%==.version-ac echo MyTerminal:_MyTerminal.v.1.0
+if %input%==.day date /t 
+if %input%==.time time /t
 ::fim dos comandos se versão com voz
 ::meio entre comandos de voz e comandos de texto
 ::comandos com voz
