@@ -3,6 +3,7 @@
 mode 80,30
 title MyTerminal
 color 0d
+::fim da configurações de tela
 ::interface
 echo /-----------------------------------/
 echo / para obter ajuda digite "?"       /
