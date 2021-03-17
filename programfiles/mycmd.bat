@@ -31,6 +31,7 @@ if %input%==.color_ch color a
 if %input%==.color_n color 0d
 ::fim dos comandos se versão com voz
 ::meio entre comandos de voz e comandos de texto
+::comandos com voz
 if %input%==.sair* exit & start 1voice.vbs
 if %input%==?* start comands.txt & start 2voice.vbs
 if %input%==.github* start https://www.github.com & start 3voice.vbs
@@ -38,6 +39,7 @@ if %input%==.cmd* start & start 4voice.vbs
 if %input%==.calc* start calc & start 5voice.vbs
 if %input%==.links* start links.py & start 6voice.vbs
 if %input%==.cls* cls & start 7voice.vbs
+::fim dos comandos com voz
 ::sistema de verificação para se a palavra ou comando existe se quisetr mudar vá em mod.txt e copie e cole de acordo com sua preferencia.
 if exist %input%=="" (
 goto chatloop
