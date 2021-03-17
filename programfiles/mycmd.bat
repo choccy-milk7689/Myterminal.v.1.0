@@ -1,6 +1,6 @@
 @echo off
 mode 80,30
-title MyCmd
+title MyTerminal
 color 0d
 echo /-----------------------------------/
 echo / para obter ajuda digite "?"       /
