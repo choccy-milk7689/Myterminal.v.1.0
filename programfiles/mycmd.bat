@@ -6,6 +6,7 @@ color 0d
 echo /-----------------------------------/
 echo / para obter ajuda digite "?"       /
 echo / para sair digite .sair            /
+echo / para trocar de cor use .color_ch  /
 echo /-----------------------------------/
 : chatloop
 set /p input=#^> 
@@ -38,6 +39,6 @@ goto chatloop
 goto in2
 )
 :in2
-start error.vbs & echo error:_404_this_comand_dont_exists & start errorpopup.vbs
+start error.vbs & echo error:_404_this_comand_dont_exist & start errorpopup.vbs
 goto chatloop
 end
