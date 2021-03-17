@@ -6,5 +6,5 @@ lista_de_comandos:
 (*_para_usar_assistente_de_voz/ex.:".links*")
 (.calc_para_abrir_calculadora)
 (.links_para_criar_arquivo_com_links_importantes.)
-(|.zoom_in|_para_zoom_maior|.zoom_out|para_zoom_menor.)
+(|.zoom_in|_para_zoom_maior|.zoom_out|para_zoom_menor_e_|.zoom_n|para_normalizar_o_tamanho)
 (.cls_para_limpar_tela)

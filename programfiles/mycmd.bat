@@ -17,6 +17,7 @@ if %input%==.links start links.py
 if %input%==.cls cls 
 if %input%==.zoom_in mode 100,40
 if %input%==.zoom_out mode 60,20
+if %input%==.zoom_n mode 80,30
 if %input%==.sair* exit & start 1voice.vbs
 if %input%==?* start comands.txt & start 2voice.vbs
 if %input%==.github* start https://www.github.com & start 3voice.vbs
