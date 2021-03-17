@@ -16,9 +16,13 @@ if %input%==.cmd start
 if %input%==.calc start calc 
 if %input%==.links start links.py 
 if %input%==.cls cls 
+::inicio dos comandos sem voz PS todo comando sem voz deve ser colocado nesse espaço
 if %input%==.zoom_in mode 100,40
 if %input%==.zoom_out mode 60,20
 if %input%==.zoom_n mode 80,30
+if %input%==.color_ch color a
+if %input%==.color_n color 0d
+::fim dos comandos se versão com voz
 ::meio entre comandos de voz e comandos de texto
 if %input%==.sair* exit & start 1voice.vbs
 if %input%==?* start comands.txt & start 2voice.vbs

@@ -8,3 +8,5 @@ lista_de_comandos:
 (.links_para_criar_arquivo_com_links_importantes.)
 (|.zoom_in|_para_zoom_maior|.zoom_out|para_zoom_menor_e_|.zoom_n|para_normalizar_o_tamanho)
 (.cls_para_limpar_tela)
+(color_ch_para_mudar_a_cor_(PS:so_uma_cor_disponivel))
+(color_n_para_voltar_a_cor_inicial)
