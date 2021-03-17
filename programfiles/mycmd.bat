@@ -49,5 +49,6 @@ goto in2
 )
 :in2
 start error.vbs & echo error:_404_this_comand_dont_exist & start errorpopup.vbs
+::fim da estrutura de verificação
 goto chatloop
 end
