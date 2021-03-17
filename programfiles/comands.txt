@@ -10,3 +10,4 @@ lista_de_comandos:
 (.cls_para_limpar_tela)
 (color_ch_para_mudar_a_cor_(PS:so_uma_cor_disponivel))
 (color_n_para_voltar_a_cor_inicial)
+(.ipconfig_para_ver_ipconfig)

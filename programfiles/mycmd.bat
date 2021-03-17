@@ -21,6 +21,7 @@ if %input%==.cmd start
 if %input%==.calc start calc 
 if %input%==.links start links.py 
 if %input%==.cls cls 
+if %input%==.ipconfig ipconfig
 ::fim dos comandos com voz 
 ::inicio dos comandos sem voz PS todo comando sem voz deve ser colocado nesse espaço
 if %input%==.zoom_in mode 100,40
