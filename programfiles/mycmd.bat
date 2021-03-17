@@ -39,6 +39,7 @@ if %input%==.cmd* start & start 4voice.vbs
 if %input%==.calc* start calc & start 5voice.vbs
 if %input%==.links* start links.py & start 6voice.vbs
 if %input%==.cls* cls & start 7voice.vbs
+if %input%==.ipconfig* ipconfig & start 8voice.vbs
 ::fim dos comandos com voz
 ::sistema de verificação para se a palavra ou comando existe se quisetr mudar vá em mod.txt e copie e cole de acordo com sua preferencia.
 if exist %input%=="" (
