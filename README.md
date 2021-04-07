@@ -1,2 +1,5 @@
 # mypersonterminal
- algumas configurações do meu terminal em um arquivo .bat para agilizar tudo
+Fazendo o meu próprio terminal com os meus comandos para agilizar meu dia
+ 
+ ***AVISO: futuras atualizações virão e serão muito melhores para o software com a implementação da linguagem python no projeto***
+ 
